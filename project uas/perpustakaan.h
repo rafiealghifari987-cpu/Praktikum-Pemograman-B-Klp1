@@ -40,11 +40,12 @@ int dipinjamCount;
 
 
 typedef struct{
+
 int id:
 
-char nama [MAX_STR);
+char nama [MAX_STR];
 
-char alamat (MAX STR);
+char alamat [MAX STR];
 
 }anggota;
 
