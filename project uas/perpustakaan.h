@@ -2,7 +2,6 @@
 
 #define PERPUSTAKAAN_H
 
-#include "perpustakaan.h"
 
 #include <stdio.h>
 
@@ -13,27 +12,27 @@
 #include <time.h>
 
 
-#define MAX STR 100
+#define MAX_STR 100
 
-#define MAX BOOKS 1000
+#define MAX_BOOKS 1000
 
-#define MAX MEMBERS 500 
+#define MAX_MEMBERS 500 
         
-#define MAX LOANS 1000
+#define MAX_LOANS 1000
 
 
 typedef struct{
-int id;
+   int id;
 
-int judul [MAX_STR];
+   int judul [MAX_STR];
 
-int penulis [MAX_STR];
+   int penulis [MAX_STR];
 
-int kategori [MAX_STR];
+   int kategori [MAX_STR];
 
-int tersedia;
+   int tersedia;
 
-int dipinjamCount;   
+   int dipinjamCount;   
 }buku;
 
 
@@ -41,11 +40,11 @@ int dipinjamCount;
 
 typedef struct{
 
-int id:
+   int id;
 
-char nama [MAX_STR];
+   char nama [MAX_STR];
 
-char alamat [MAX STR];
+   char alamat [MAX STR];
 
 }anggota;
 
