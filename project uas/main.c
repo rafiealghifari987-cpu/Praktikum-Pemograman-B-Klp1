@@ -21,8 +21,8 @@ void loginPustakawan() {
          printf("\nLogin berhasil!\n\n") ;
          break;
          } else{
-              printf("Login gagal!    
-              Cobalagi.\n\n") ;
+              printf("Login gagal! Cobalagi.\n\n") ;   
+              
          }
        
       }while(1);
