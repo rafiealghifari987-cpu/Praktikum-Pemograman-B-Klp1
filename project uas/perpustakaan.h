@@ -75,7 +75,8 @@ void simpanBuku(Buku buku) ;
 void simpanAnggota(Anggota anggota);
 void simpanPeminjaman(Peminjaman peminjam) ;
 
-void bacaBukuDariFile(Buku daftarBuku[], int *jumlah) ;
+void bacaBukuDariFile(Buku 
+daftarBuku[], int *jumlah) ;
 void bacaAnggotaDariFile(Anggota daftarAnggota[], int *jumlah) ;
 voidbacaPeminjamDariFile(Peminjaman daftarPeminjam[], int *jumlah) ;
 
