@@ -16,22 +16,15 @@ void loginPustakawan() {
          scanf("%s", user) ;
          printf("Password: ") ;
          scanf("%s", pass) ;
-         if 
-
-
-
-
-
-
-      }
-
-
-
-
-
-
-
-
-
+         if(strcmp(user, " admin")==0
+         && strcmp(pass, "klp1solid")==0){      
+         printf("\nLogin berhasil!\n\n") ;
+         break;
+         } else{
+              printf("Login gagal!Coba       
+              lagi.\n\n") ;
+         }
+       
+      }while(1);
 
 }
