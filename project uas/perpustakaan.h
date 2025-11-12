@@ -36,7 +36,7 @@ typedef struct{
 
 typedef struct{
 
-   int id;
+   int  id;
    char nama [MAX_STR];
    char alamat [MAX STR];
 
@@ -44,12 +44,12 @@ typedef struct{
 
 
 typedef struct {
-   int id ;
-   int idBuku;
-   int idAnggota;
-   int tanggalPinjam[20];
+   int  id ;
+   int  idBuku;
+   int  idAnggota;
+   int  tanggalPinjam[20];
    char tanggalKembali[20];
-   int denda;
+   int  denda;
 
 }Peminjaman;
 
@@ -78,7 +78,7 @@ void simpanPeminjaman(Peminjaman peminjam) ;
 void bacaBukuDariFile(Buku 
 daftarBuku[], int *jumlah) ;
 void bacaAnggotaDariFile(Anggota daftarAnggota[], int *jumlah) ;
-voidbacaPeminjamDariFile(Peminjaman daftarPeminjam[], int *jumlah) ;
+void bacaPeminjamDariFile(Peminjaman daftarPeminjam[], int *jumlah) ;
 
 #endif
 
