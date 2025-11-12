@@ -70,7 +70,8 @@ void tampilkanAnggota() ;
 void pinjamBuku() ;
 void kembalikanBuku() ;
 
-int hitungDenda(const char *tglPinjam, const char *tglKembali);
+int hitungDenda(const char 
+*tglPinjam, const char *tglKembali);
 void simpanBuku(Buku buku) ;
 void simpanAnggota(Anggota anggota);
 void simpanPeminjaman(Peminjaman peminjam) ;
