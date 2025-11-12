@@ -1,2 +1,7 @@
 # Praktikum-Pemograman-B-Klp1
-tugas uas semester 1 mk pratikum pemograman
+
+Tugas Uas Semester 1 mk Pratikum Pemograman
+Nama:
+1.Muhammad Rafie al Ghifari (250810701100013) 
+
+
