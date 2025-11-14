@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #include "perpustakaan.h"
 
 int main() {
@@ -26,3 +24,36 @@ void loginPustakawan() {
 
     } while (1);
 }
+void tampilkanMenuUtama() {
+    int pilih;
+    do {
+        printf("\n=== MENU UTAMA ===\n");
+        printf("1. Tambah Buku\n");
+        printf("2. Hapus Buku\n");
+        printf("3. Edit Buku\n");
+        printf("4. Lihat Daftar Buku\n");
+        printf("5. Cari Buku\n");
+        printf("6. Tambah Anggota\n");
+        printf("7. Peminjaman Buku\n");
+        printf("8. Pengembalian Buku\n");
+        printf("9. Ranking Buku Populer\n");
+        printf("0. Keluar\n");
+        printf("Pilih menu: ");
+        scanf("%d", &pilih);
+
+        switch(pilih) {
+            case 1: tambahBuku(); break;
+            case 2: hapusBuku(); break;
+            case 3: editBuku(); break;
+            case 4: tampilkanDaftarBuku(); break;
+            case 5: cariBuku(); break;
+            case 6: tambahAnggota(); break;
+            case 7: pinjamBuku(); break;
+            case 8: kembalikanBuku(); break;
+            case 9: rankingBuku(); break;
+            case 0: printf("Keluar dari sistem...\n"); break;
+            default: printf("Pilihan tidak valid!\n");
+        }
+    } while(pilih != 0);
+}
+
