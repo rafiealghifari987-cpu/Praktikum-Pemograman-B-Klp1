@@ -38,7 +38,7 @@ typedef struct{
 
    int  id;
    char nama [MAX_STR];
-   char alamat [MAX STR];
+   char alamat [MAX_STR];
 
 }Anggota;
 
