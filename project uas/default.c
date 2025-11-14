@@ -1,7 +1,7 @@
 #include "perpustakaan.h"
 
 int main() {
-    loginPustakawan();        // Login dulu
-    tampilkanMenuUtama();     // Masuk menu utama
+    loginPustakawan();        
+    tampilkanMenuUtama();     
     return 0;
 }
