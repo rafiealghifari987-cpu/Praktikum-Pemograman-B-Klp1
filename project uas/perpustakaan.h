@@ -76,6 +76,9 @@ void simpanBuku(Buku buku) ;
 void simpanAnggota(Anggota anggota);
 void simpanPeminjaman(Peminjaman peminjam) ;
 
+void getTanggalSekarang(char *buffer);
+void clearBuffer();
+
 void bacaBukuDariFile(Buku 
 daftarBuku[], int *jumlah) ;
 void bacaAnggotaDariFile(Anggota daftarAnggota[], int *jumlah) ;
