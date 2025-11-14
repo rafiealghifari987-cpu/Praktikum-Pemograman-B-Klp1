@@ -8,7 +8,7 @@ int main() {
 }
 
 void loginPustakawan() {
-     char user [50], pass[50]
+     char user [50], pass[50];
      do {
          printf("=== LOGIN PUSTAKAWAN             
          ===\n");
@@ -25,6 +25,6 @@ void loginPustakawan() {
               
          }
        
-      }while(1);
+     }while(1);
 
 }
