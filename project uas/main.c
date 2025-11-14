@@ -10,8 +10,7 @@ int main() {
 void loginPustakawan() {
      char user [50], pass[50];
      do {
-         printf("=== LOGIN PUSTAKAWAN             
-         ===\n");
+         printf("=== LOGIN PUSTAKAWAN ===\n");    
          printf("Username: ") ;
          scanf("%s", user) ;
          printf("Password: ") ;
@@ -25,6 +24,6 @@ void loginPustakawan() {
               
          }
        
-     }while(1);
+   }while(1);
 
 }
