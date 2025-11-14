@@ -23,9 +23,9 @@
 
 typedef struct{
    int id;
-   int judul [MAX_STR];
-   int penulis [MAX_STR];
-   int kategori [MAX_STR];
+   char judul [MAX_STR];
+   char penulis [MAX_STR];
+   char kategori [MAX_STR];
    int tersedia;
    int dipinjamCount;   
 
@@ -57,7 +57,7 @@ typedef struct {
 void tampilkanMenuUtama() ;
 void loginPustakawan() ;
 
-void tambahanBuku();
+void tambahBuku();
 void hapusBuku() ;
 void editBuku() ;
 void tampilkanDaftarBuku() ;
