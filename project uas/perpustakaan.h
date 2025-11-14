@@ -47,7 +47,7 @@ typedef struct {
    int  id ;
    int  idBuku;
    int  idAnggota;
-   int  tanggalPinjam[20];
+   char tanggalPinjam[20];
    char tanggalKembali[20];
    int  denda;
 
@@ -62,7 +62,7 @@ void hapusBuku() ;
 void editBuku() ;
 void tampilkanDaftarBuku() ;
 void cariBuku() ;
-void rangkingBuku() ;
+void rankingBuku() ;
 
 void tambahAnggota() ;
 void tampilkanAnggota() ;
