@@ -1,17 +1,14 @@
 CC = gcc
-CFLAGS = -Wall -Wextra
+CFLAGS = -Wall -Wextra -std=c99
+TARGET = perpustakaan
+SRCS = main.c buku.c anggota.c peminjaman.c utils.c
+HDRS = perpustakaan.h
 
-SRC = main.c buku.c anggota.c peminjaman.c utils.c
-OBJ = $(SRC:.c=.o)
-OUT = app
-
-all: $(OUT)
-
-$(OUT): $(OBJ)
-	$(CC) $(CFLAGS) -o $(OUT) $(OBJ)
-
-%.o: %.c perpustakaan.h
-	$(CC) $(CFLAGS) -c $<
+$(TARGET): $(SRCS) $(HDRS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
 
 clean:
-	rm -f *.o $(OUT)
+	rm -f $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
